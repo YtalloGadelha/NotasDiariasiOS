@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5378A91C22DEB956003DF627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5378A91B22DEB956003DF627 /* AppDelegate.swift */; };
-		5378A91E22DEB956003DF627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5378A91D22DEB956003DF627 /* ViewController.swift */; };
 		5378A92122DEB956003DF627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5378A91F22DEB956003DF627 /* Main.storyboard */; };
 		5378A92422DEB956003DF627 /* Notas_Diarias.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5378A92222DEB956003DF627 /* Notas_Diarias.xcdatamodeld */; };
 		5378A92622DEB957003DF627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5378A92522DEB957003DF627 /* Assets.xcassets */; };
 		5378A92922DEB957003DF627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5378A92722DEB957003DF627 /* LaunchScreen.storyboard */; };
+		5378A93122DEBDC5003DF627 /* ListarAnotacoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5378A93022DEBDC5003DF627 /* ListarAnotacoesTableViewController.swift */; };
+		5378A93322DEBE0C003DF627 /* AnotacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5378A93222DEBE0C003DF627 /* AnotacaoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5378A91822DEB956003DF627 /* Notas Diarias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notas Diarias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5378A91B22DEB956003DF627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5378A91D22DEB956003DF627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5378A92022DEB956003DF627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5378A92322DEB956003DF627 /* Notas_Diarias.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notas_Diarias.xcdatamodel; sourceTree = "<group>"; };
 		5378A92522DEB957003DF627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5378A92822DEB957003DF627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5378A92A22DEB957003DF627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5378A93022DEBDC5003DF627 /* ListarAnotacoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarAnotacoesTableViewController.swift; sourceTree = "<group>"; };
+		5378A93222DEBE0C003DF627 /* AnotacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotacaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				5378A91B22DEB956003DF627 /* AppDelegate.swift */,
-				5378A91D22DEB956003DF627 /* ViewController.swift */,
+				5378A93022DEBDC5003DF627 /* ListarAnotacoesTableViewController.swift */,
+				5378A93222DEBE0C003DF627 /* AnotacaoViewController.swift */,
 				5378A91F22DEB956003DF627 /* Main.storyboard */,
 				5378A92522DEB957003DF627 /* Assets.xcassets */,
 				5378A92722DEB957003DF627 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5378A93322DEBE0C003DF627 /* AnotacaoViewController.swift in Sources */,
 				5378A92422DEB956003DF627 /* Notas_Diarias.xcdatamodeld in Sources */,
-				5378A91E22DEB956003DF627 /* ViewController.swift in Sources */,
 				5378A91C22DEB956003DF627 /* AppDelegate.swift in Sources */,
+				5378A93122DEBDC5003DF627 /* ListarAnotacoesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
